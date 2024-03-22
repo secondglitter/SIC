@@ -1,0 +1,79 @@
+*{
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 2px solid black;
+    background: gray;
+}
+
+h1{
+    text-align: center;
+}
+
+button {
+    position: relative;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: gray;
+    transition: all 0.2s ease;
+}
+
+.tablas{
+    padding-left: 20px;
+}
+
+.si{
+    background-color: rgb(98, 215, 114)
+}
+input {
+    border: 2px solid transparent;
+    width: 20rem;
+    height: 2.5rem;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+table {
+    background: transparent;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th {
+    background-color: gray;
+    height: 35px;
+    border-bottom: 1px solid rgb(210, 220, 250);
+    color: black;
+    border: 0.5px solid rgba(240, 240, 240, 10);
+  }
+  
+  td {
+    color: black;
+    height: 30px;
+    border: 0.5px solid rgba(240, 240, 240, 10);
+  }
+
+  
+  tr:hover {
+    background-color: gray;
+  }  
+
+  .lista-1{
+    width: 100px;
+  }
+
+  .lista-2{
+    width: 120px;
+  }
